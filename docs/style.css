@@ -3,13 +3,13 @@
 
 /* ─── Tokens ─────────────────────────────────────────────────────────────── */
 :root {
-  --bg:        #f6f5f2;
-  --surface:   #ffffff;
-  --border:    #e8e4dd;
-  --shadow:    rgba(0, 0, 0, 0.05);
+  --bg:        #111110;
+  --surface:   #1c1b19;
+  --border:    #2e2c28;
+  --shadow:    rgba(0, 0, 0, 0.3);
   --accent:    #ea580c;
-  --accent-bg: #fff7ed;
-  --text:      #1c1917;
+  --accent-bg: rgba(234, 88, 12, 0.08);
+  --text:      #e7e5e0;
   --muted:     #78716c;
   --radius:    12px;
   --ease:      180ms ease;
@@ -75,7 +75,7 @@ header {
 
 .card:hover,
 .card:focus-visible {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
   transform: translateY(-2px);
   border-color: var(--accent);
   outline: none;
@@ -229,7 +229,7 @@ header {
   font-size: 0.88rem;
 }
 
-#modal-body blockquote strong { color: #9a3412; }
+#modal-body blockquote strong { color: #fb923c; }
 #modal-body hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
 
 /* ─── States ─────────────────────────────────────────────────────────────── */
@@ -259,11 +259,11 @@ header {
 }
 
 .fetch-error {
-  background: #fef2f2;
-  border: 1px solid #fecaca;
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.25);
   border-radius: 8px;
   padding: 0.875rem 1rem;
-  color: #dc2626;
+  color: #fca5a5;
   font-size: 0.88rem;
 }
 
