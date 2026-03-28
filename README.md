@@ -13,7 +13,7 @@ Welcome to our Archipelago multiworld! Below are setup guides for each player.
 | Elias   | Super Mario 64        | [Guide](guides/sm64.md)        |
 | Adrian  | Inscryption           | [Guide](guides/inscryption.md) |
 | Zubayr  | Borderlands 2         | [Guide](guides/bl2.md)         |
-| Matnar  | Hades                 | [Guide](guides/hades.md)       |
+| Matnar  | Risk of Rain 2        | [Guide](guides/ror2.md)        |
 | Mathias | Stardew Valley        | [Guide](guides/stardew.md)     |
 | Eskil   | Resident Evil 3       | [Guide](guides/re3.md)         |
 | Hans    | Zelda: Ocarina of Time| [Guide](guides/oot.md)         |

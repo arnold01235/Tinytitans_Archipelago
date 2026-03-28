@@ -2,7 +2,7 @@ const PLAYERS = Object.freeze([
   { player: 'Elias',   game: 'Super Mario 64',          slug: 'sm64',        emoji: '⭐', accent: 0 },
   { player: 'Adrian',  game: 'Inscryption',              slug: 'inscryption', emoji: '🃏', accent: 1 },
   { player: 'Zubayr',  game: 'Borderlands 2',            slug: 'bl2',         emoji: '🔫', accent: 2 },
-  { player: 'Matnar',  game: 'Hades',                    slug: 'hades',       emoji: '💀', accent: 3 },
+  { player: 'Matnar',  game: 'Risk of Rain 2',            slug: 'ror2',        emoji: '🌧️', accent: 3 },
   { player: 'Mathias', game: 'Stardew Valley',           slug: 'stardew',     emoji: '🌱', accent: 4 },
   { player: 'Eskil',   game: 'Resident Evil 3',          slug: 're3',         emoji: '🧟', accent: 5 },
   { player: 'Hans',    game: 'Zelda: Ocarina of Time',   slug: 'oot',         emoji: '🎵', accent: 6 },
