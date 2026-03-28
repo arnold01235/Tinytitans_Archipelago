@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
       <span class="card-emoji">${entry.emoji}</span>
       <span class="card-player">${entry.player}</span>
       <span class="card-game">${entry.game}</span>
-      <span class="card-cta">View Setup →</span>
     `;
     btn.addEventListener('click', () => openGuide(entry));
     cardGrid.appendChild(btn);
