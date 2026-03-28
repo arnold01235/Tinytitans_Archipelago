@@ -25,6 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalGame    = document.getElementById('modal-game-name');
   const modalBody    = document.getElementById('modal-body');
 
+  // ── Prefetch all guides in the background ───────────────────────────────
+  const prefetch = () => PLAYERS.forEach(({ slug }) => fetchGuide(slug).catch(() => {}));
+  if ('requestIdleCallback' in window) requestIdleCallback(prefetch);
+  else setTimeout(prefetch, 200);
+
   // ── Render cards ────────────────────────────────────────────────────────
   PLAYERS.forEach((entry, i) => {
     const btn = document.createElement('button');
