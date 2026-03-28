@@ -8,6 +8,7 @@ const PLAYERS = Object.freeze([
   { player: 'Hans',    game: 'Zelda: Ocarina of Time',   slug: 'oot',         emoji: '🎵', accent: 6 },
   { player: 'Arnold',  game: 'Sly 2: Band of Thieves',   slug: 'sly2',        emoji: '🦝', accent: 7 },
   { player: 'John',    game: 'Black Ops 3 (Zombies)',     slug: 'bo3',         emoji: '🧠', accent: 8 },
+  { player: 'Anniken', game: 'Sly 3: Honor Among Thieves', slug: 'sly3',      emoji: '🐢', accent: 2 },
 ]);
 
 const guideCache = {};

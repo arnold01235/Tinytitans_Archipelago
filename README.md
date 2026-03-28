@@ -19,6 +19,7 @@ Welcome to our Archipelago multiworld! Below are setup guides for each player.
 | Hans    | Zelda: Ocarina of Time| [Guide](guides/oot.md)         |
 | Arnold  | Sly 2                 | [Guide](guides/sly2.md)        |
 | John    | Black Ops 3           | [Guide](guides/bo3.md)         |
+| Anniken | Sly 3                 | [Guide](guides/sly3.md)        |
 
 ## Common First Steps (Everyone)
 
