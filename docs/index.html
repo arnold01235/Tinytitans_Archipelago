@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tinytitans Archipelago</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo-icon">🏝️</div>
+      <h1 class="site-title">Tinytitans Archipelago</h1>
+      <p class="site-tagline">Setup guides for our multiworld session — click your game to get started</p>
+    </div>
+  </header>
+
+  <main id="card-grid"></main>
+
+  <div id="modal-overlay">
+    <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-game-name">
+      <button id="modal-close" aria-label="Close guide">✕</button>
+      <div id="modal-header">
+        <span id="modal-emoji"></span>
+        <div id="modal-meta">
+          <div id="modal-player-name"></div>
+          <div id="modal-game-name"></div>
+        </div>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+</body>
+</html>
