@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ── Fetch markdown ───────────────────────────────────────────────────────
   async function fetchGuide(slug) {
     if (guideCache[slug]) return guideCache[slug];
-    const res = await fetch(`../guides/${slug}.md`);
+    const res = await fetch(`guides/${slug}.md`);
     if (!res.ok) throw new Error(`Failed to load guide (${res.status})`);
     const text = await res.text();
     guideCache[slug] = text;
