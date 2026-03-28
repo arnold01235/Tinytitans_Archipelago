@@ -1,0 +1,4 @@
+players/*
+output/*
+!players/.gitkeep
+!output/.gitkeep

@@ -1,0 +1,9 @@
+services:
+  archipelago:
+    build: .
+    ports:
+      - "38281:38281"
+    volumes:
+      - ./players:/archipelago/players
+      - ./output:/archipelago/output
+    restart: unless-stopped
