@@ -3,7 +3,7 @@
 ## What you need
 
 - **Resident Evil 3** (the 2020 remake) installed via Steam
-- The **Archipelago client** installed: [archipelago.gg/downloads](https://archipelago.gg/downloads)
+- The **Archipelago client** installed: [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
 
 > **Note:** Double-check with the host which version of RE3 is being used — the 2020 remake or the original 1999 game. This guide covers the **2020 remake**.
 

@@ -4,7 +4,7 @@
 
 - **Hades** installed via Steam or Epic Games
 - **r2modman** or **Thunderstore Mod Manager**: [thunderstore.io](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager)
-- The **Archipelago client** installed: [archipelago.gg/downloads](https://archipelago.gg/downloads)
+- The **Archipelago client** installed: [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
 
 ## Step 1 — Install the mod manager
 

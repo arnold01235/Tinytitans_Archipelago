@@ -3,7 +3,7 @@
 ## What you need
 
 - An **Ocarina of Time ROM** (USA 1.0) — you need to source this yourself
-- The **Archipelago client** installed: [archipelago.gg/downloads](https://archipelago.gg/downloads)
+- The **Archipelago client** installed: [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
 - The OoT Archipelago setup is handled entirely through the Archipelago launcher — no separate randomizer needed
 
 ## Step 1 — Patch your ROM

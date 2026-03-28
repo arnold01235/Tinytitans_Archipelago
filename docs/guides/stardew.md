@@ -4,7 +4,7 @@
 
 - **Stardew Valley** installed via Steam
 - **SMAPI** (Stardew Valley mod loader): [smapi.io](https://smapi.io)
-- The **Archipelago client** installed: [archipelago.gg/downloads](https://archipelago.gg/downloads)
+- The **Archipelago client** installed: [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
 
 ## Step 1 — Install SMAPI
 

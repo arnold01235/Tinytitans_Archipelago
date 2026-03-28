@@ -3,7 +3,7 @@
 ## What you need
 
 - **Borderlands 2** installed via Steam
-- The **Archipelago client** installed: [archipelago.gg/downloads](https://archipelago.gg/downloads)
+- The **Archipelago client** installed: [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
 
 ## Step 1 — Install the BL2 Archipelago mod
 
