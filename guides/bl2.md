@@ -3,34 +3,34 @@
 ## What you need
 
 - **Borderlands 2** installed via Steam
-- The **Archipelago client** installed: [archipelago.gg/downloads](https://archipelago.gg/downloads)
+- The **Archipelago client** installed: [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
+- The **Bouncy Loot God** mod: [github.com/EdricY/Bouncy-Loot-God/releases](https://github.com/EdricY/Bouncy-Loot-God/releases)
+- **BL2 Mod Manager** v3.7+
+- **Coroutines mod** v1.1+ (required dependency — linked in the mod's README)
 
-## Step 1 — Install the BL2 Archipelago mod
+## Step 1 — Install the mod
 
-1. Download the **Borderlands 2 Archipelago mod** from the Archipelago releases page:
-   [github.com/ArchipelagoMW/Archipelago/releases](https://github.com/ArchipelagoMW/Archipelago/releases)
-2. Follow the included instructions to place the mod files in your BL2 installation folder
-   - Typically: `Steam\steamapps\common\Borderlands 2\Binaries\Win32\Mods\`
-3. Make sure **BL2 SDK** (the mod loader) is also installed — the mod page will link to it
+1. Download `BouncyLootGod.sdkmod` from the [Bouncy Loot God releases page](https://github.com/EdricY/Bouncy-Loot-God/releases)
+2. Place it in your BL2 `sdk_mods` folder
+3. Download `borderlands2.apworld` from the same releases page
+4. Place it in your Archipelago `custom_worlds` folder
+5. Make sure the **Coroutines mod** is also installed (see the mod's README for the link)
 
 ## Step 2 — Configure your YAML
 
-1. Open the Archipelago launcher
-2. Go to **Generate Template Settings** and select Borderlands 2
-3. Open the generated `.yaml` file in a text editor
-4. Set `name` to your slot name (e.g. `Zubayr`)
-5. Choose your preferred character and any other options you want
-6. Send the `.yaml` file to the host
+1. Download a pre-made YAML from the [sample-yamls folder](https://github.com/EdricY/Bouncy-Loot-God/tree/main/sample-yamls) — `basegame-med.yaml` is a good starting point (~8 hours)
+2. Open it in a text editor and set `name` to `Zubayr`
+3. Send the `.yaml` file to the host
 
 ## Step 3 — Connect to the server
 
-1. Launch Borderlands 2 with mods enabled (the SDK loader handles this)
-2. In-game, open the console (usually `~` or `F6`)
-3. The mod should show a connection dialog or console command — type the server address, slot name, and password
-4. Once connected, start or load a game
+1. Launch **Borderlands 2 Client** from the Archipelago launcher (not the Text Client)
+2. Connect to the server: `129.151.222.194:38281`
+3. Launch Borderlands 2, enable the mod in-game, and load your character
 
 ## Tips
 
-- Play on **Normal/True Vault Hunter** mode — the mod works best on a fresh character
-- Item drops in the world are your checks; completing missions also sends items
-- If the connection drops, you can reconnect via the console without losing progress
+- **Disable the mod before any non-randomizer play** — always re-enable it from the Esc menu after loading a character
+- If you see a browser window open when enabling the mod, the Coroutines dependency is missing
+- If you can't deal damage at the start, add `Melee: 1` to your starting inventory in your YAML
+- If the game crashes on character load: disable the mod, load, then re-enable from Esc
